@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Clone - Giriş</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="js/firebase.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Instagram</h1>
+    <input type="text" id="login-email" placeholder="E-posta veya kullanıcı adı">
+    <input type="password" id="login-password" placeholder="Şifre">
+    <button onclick="login()">Giriş Yap</button>
+    <p><a href="forgot.html">Şifreni mi unuttun?</a></p>
+    <p>Hesabın yok mu? <a href="signup.html">Kaydol</a></p>
+  </div>
+  <script src="js/auth.js"></script>
+</body>
+</html>
